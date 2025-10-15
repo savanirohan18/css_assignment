@@ -1,0 +1,60 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+h1{
+    background-color: aquamarine;
+    text-align: center;
+    align-content: center;
+    height: 50px;
+}
+
+.box{
+    border: 2px solid black;
+    height: 350px;
+    width: 300px;
+    background-color:beige;
+    box-shadow: 10px 10px 10px 10px ;
+    margin: 20px;
+
+}
+
+.box:hover{
+    transform:translateY(-10px);
+}
+
+.conteiner{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color: cadetblue;
+}
+
+img{
+    height: 200px;
+    width: 270px;
+    margin: 12px;
+    border-radius: 5px;
+    border: 3px solid gray; 
+}
+
+h3{
+    text-align: center;
+    text-decoration: underline;
+}
+
+button{
+    display: flex;
+    margin: auto;
+    margin-top: 25px;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: bolder;
+    border: 3px solid gray;
+    border-radius: 5px;
+}
+
+button:hover{
+    background-color: black;
+    color: white;
+}

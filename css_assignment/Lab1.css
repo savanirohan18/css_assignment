@@ -1,0 +1,49 @@
+.box{
+    background-color: skyblue;
+    height: 450px;
+    width: 400px;
+    border: 2px solid black;
+    border-radius: 6px;
+    padding-top: 20px;
+    padding-left: 20px;
+    font-weight: bolder;
+    margin: auto;
+    margin-top: 70px;
+
+}
+
+.heding{
+    text-align: center;
+    background-color: gray;
+    color: white;
+}
+
+body{
+    background-color: blanchedalmond;
+    margin: 30px;
+}
+
+button:hover{
+    background-color: black;
+    color: white;
+}
+button{
+    margin-left: 20px;
+    padding: 6px;
+    border-radius: 5px;
+    
+}
+
+input{
+    padding: 5px;
+    border-radius: 5px;
+    
+}
+
+textarea{
+    border-radius: 5px;
+}
+
+input:hover{
+    background-color: azure;
+}

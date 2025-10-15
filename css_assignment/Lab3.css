@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color: bisque;
+    height: 70px;
+    border-radius: 20px;
+    padding: 5px;
+    text-align: center;
+    align-content: center;
+}
+
+footer{
+    display: flex;
+    background-color: bisque;
+    height: 70px;
+    margin-top: 5px;
+    border-radius: 20px;
+    padding: 5px;
+    justify-content: right;
+    align-items: center;
+}
+
+.main{
+    display: flex;
+    background-color:grey;
+    height: 550px;
+    width: 1145px;
+    float: right;
+    padding: 5px;
+    margin-top: 5px;
+    border-radius: 20px;
+    text-align: center;
+    color: white;
+
+}
+
+.aside{
+    background-color: aquamarine;
+    height: 550px;
+    width: 350px;
+    padding: 5px;
+    margin-top: 5px;
+    border-radius: 20px;
+    background-image: url("./moon1.jpg");
+    background-size: cover;
+
+}

@@ -1,0 +1,63 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Open Sans", sans-serif;
+  background-color: #fdfdfd;
+  color: #333;
+  line-height: 1.7;
+}
+
+/* Container */
+.container {
+  max-width: 800px;
+  padding: 32px;
+  margin: auto;
+  background-color: orange;
+  color: white;
+}
+
+/* Headings */
+.title {
+  font-family: "Playfair Display", serif;
+  font-size: 2.8rem;
+  line-height: 1.2;
+  margin-bottom: 0.5rem;
+}
+
+.subtitle {
+  font-family: "Playfair Display", serif;
+  font-size: 24px;
+  font-weight: 400;
+  color: #666;
+  margin-bottom: 2rem;
+}
+
+/* Content paragraphs */
+.content p {
+  margin-bottom: 1.5rem;
+  font-size: 1.125rem;
+  letter-spacing: 0.2px;
+  font-weight: bold;
+  text-align: justify;
+}
+
+/* Responsive typography */
+@media only screen and (max-width: 600px) {
+  .title {
+    font-size: 32px;
+  }
+
+  .subtitle {
+    font-size: 20px;
+  }
+
+  .content p {
+    font-size: 16px;
+  }
+
+  .container {
+    padding: 24px;
+  }
+}
+
+

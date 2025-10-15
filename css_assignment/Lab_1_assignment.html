@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+    <link rel="stylesheet" href="Lab1.css">
+</head>
+<body>
+    <h1 class="heding">Register form</h1>
+    <div>
+        <div class="box">
+            <form action="" method="post">
+        <label for="firstname">Firstname:</label>
+        <input type="text" name="firsname" id="firsname" required placeholder="Firstname"><br><br>
+        <label for="lastname">Lastname:</label>
+        <input type="text" name="lastname" id="lastname" required placeholder="Lastname"><br><br>
+        <label for="mobileno">Mobileno:</label>
+        <input type="tel" name="mobileno" id="mobileno" required placeholder="Mobileno" maxlength="10"><br><br>
+        <label for="email">Email id:</label>
+        <input type="text" name="email" id="email" required placeholder="Email"><br><br>
+        <label for="gender">Gender:</label>
+        <input type="radio" name="gender" id="gender">
+        <label for="gender">Male</label>
+        <input type="radio" name="gender" id="gender">
+        <label for="gender">Female</label><br><br>
+        <!-- <label for="address">Address:</label> -->
+        <textarea name="address" id="address" style="width: 250px; height: 80px;" required placeholder="Address" ></textarea><br><br>
+        <label for="course">Course:</label>
+        <select name="course" id="course">
+            <option value="frontend">Frontend</option>
+            <option value="backend">Backend</option>
+            <option value="fullstack">Fullstack</option>
+            <option value="disigning">Disigning</option>
+        </select><br><br>
+        <button type="reset">reset</button>
+        <button>submit</button>
+    </form>
+        </div>
+    </div>
+    
+</body>
+</html>
